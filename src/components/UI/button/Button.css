@@ -1,0 +1,29 @@
+a {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-white);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+a:hover {
+    color: var(--orange-biz);
+}
+
+a.btn {
+    /* margin-left: 1rem; */
+    font-weight: 500;
+    padding: 5px 8px;
+}
+a.btn-dark {
+    border: 2px solid var(--color-white);
+    border-radius: 5px;
+    background: transparent;
+}
+
+a.btn-light {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: var(--orange-biz);
+    color: white;
+}
