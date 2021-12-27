@@ -1,5 +1,5 @@
 import "./App.css";
-import {Navbar, Header, Option, Service, Footer, Faqs } from "./components"
+import {Navbar, Header, Options , Service, Footer, Faqs } from "./components"
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
       </header>
-      <Option/>
+      <Options/>
       <Service/>
       <Footer/>
       <Faqs/>

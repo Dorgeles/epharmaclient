@@ -1,0 +1,23 @@
+.option-content {
+    display: flex;
+    justify-content: center;
+}
+
+.option-left {
+    flex: 1;
+    text-align: center;
+}
+
+.option-left img {
+    width: 65%;
+}
+
+.option-right {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .option-content {
+        flex-direction: column;
+    }
+}
