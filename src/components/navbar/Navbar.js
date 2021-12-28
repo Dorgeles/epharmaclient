@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import "./Navbar.css";
 import {GiHospital} from "react-icons/gi";
 import {AiOutlineBars} from "react-icons/ai";
@@ -22,10 +22,8 @@ const Navbar = () => {
             </div>
             <menu>
                 <ul className="nav-links" id={showMenu ? "nav-links-mobile": "nav-links-mobile-hide"}>
-                    <li><a href="#">Acceuil</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Option</a></li>
-                    <li><a href="#">Question</a></li>
+                    <li><a href="#header">Acceuil</a></li>
+                    <li><a href="#option">Service</a></li>
                     <li>
                         <Button text={"Commencer"} btnClass={"btn-dark"} href={"#Faq"}/>
                     </li>

@@ -1,0 +1,25 @@
+#login {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: var(--dark-green);
+}
+
+.container_login {
+    margin-top: 100px;
+    margin: auto;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.icon_class img{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.col-6 {
+    display: flex;
+    margin: 2rem 0;
+}

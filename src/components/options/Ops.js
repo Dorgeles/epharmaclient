@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Ops.css";
 import { BsHexagon } from 'react-icons/bs';
-import {FaAccessibleIcon, FaGg} from "react-icons/fa"
 
 const Ops = ({icon, heading, text}) => {
     return (

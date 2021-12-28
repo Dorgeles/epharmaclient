@@ -1,18 +1,19 @@
 import "./App.css";
-import {Navbar, Header, Options , Service, Footer, Faqs } from "./components"
+import {HomeScreen, Login, Dashboard} from "./components/index";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-      <header className="header-bg">
-        <Navbar></Navbar>
-        <Header></Header>
-      </header>
-      <Options/>
-      <Service/>
-      <Footer/>
-      <Faqs/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<HomeScreen />} />
+          <Route path="/connexion" exact element={<Login />} />
+          <Route path="/dashboard" exact element={<Dashboard />} />
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

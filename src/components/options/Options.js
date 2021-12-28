@@ -7,7 +7,7 @@ import {optionList} from "./data";
 
 const Options = () => {
     return (
-        <section id="Option">
+        <section id="option">
             <div className="container options">
                 <div className="u-title">
                     <BsFillBookmarkStarFill color='#2c3e50' size={30} />

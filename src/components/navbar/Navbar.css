@@ -60,7 +60,22 @@ a.btn-light {
     display: none;
 }
 
+
 @media screen and (max-width: 600px ) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-text {
+        font-size: 3rem;
+        font-weight: 300;
+        color: var(--color-white);
+    }
+    .logo-text span {
+        font-weight: 600;
+        color: var(--orange-biz); 
+    }
     .nav-links{
         display: none;
         border: 2px solid var(--color-white);

@@ -1,5 +1,5 @@
 #hearder {
-     position: relative;
+    position: relative;
 }
 .header {
     display: flex;
@@ -88,6 +88,7 @@ h1 span:nth-child(3) {
 }
 @media screen and (max-width:600px) {
     .header  {
+        margin-top: 15rem;
         flex-direction: column;
     }
     .header-left, .header-rigth {

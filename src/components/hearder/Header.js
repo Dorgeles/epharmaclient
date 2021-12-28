@@ -21,7 +21,7 @@ const Header = () => {
                              claire transparence des les process de gestion d'une pharmacie urbaine et moderne.
                          </p>
                          <div className="header-cta">
-                         <Button btnClass={"btn-dark"} text={"Commencer"} href={"#"}/>
+                         <Button btnClass={"btn-dark"} text={"Commencer"} href={"/connexion"}/>
                          <Button btnClass={"btn-light"} text={"Comment ça marche"} href={"#"}/>
                          </div>
                     
@@ -31,7 +31,7 @@ const Header = () => {
                  </div>
             </div>
             <div className="floating-icon">
-                <a href="#services">
+                <a href="#option">
                     <BsMouse color="#fff" size={25} className="mouse"/>
                 </a>
             </div>

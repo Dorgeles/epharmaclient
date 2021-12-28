@@ -1,0 +1,13 @@
+.container-profile {
+    margin-top: 5rem;
+}
+
+.profileName {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-grey);
+}
+
+.profileImage {
+    height: 5rem;
+}

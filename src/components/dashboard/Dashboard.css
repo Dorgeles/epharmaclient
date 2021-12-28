@@ -1,0 +1,6 @@
+.dashboard-container {
+    display: flex;
+    height: 97vh;
+    background: linear-gradient(to bottom right, white 0%, #75eca2 70%);
+    border-radius: 2rem;
+}
