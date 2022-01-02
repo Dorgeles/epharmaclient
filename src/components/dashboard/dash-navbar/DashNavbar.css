@@ -1,0 +1,41 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.navbar-container h1 span{
+    font-weight: 500;
+    color: #484258;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-icon {
+    height: 3rem;
+    width: 3rem;
+    background-color: #dce4ff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.input-icon svg {
+    color: #555555;
+}
+
+.input-container input{
+    border: none;
+    background-color: #dce4ff;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.input-container input:focus {
+    border: none;
+    outline: none;
+}

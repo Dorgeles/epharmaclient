@@ -1,8 +1,9 @@
 .badge {
-    padding: 0%.3rem 1rem;
-    border-radius: 1rem;
-    font-weight: 500;
-    color: var(--color-white);
-    background-color: var(--orange-biz);
-    cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  color: var(--color-white);
+  background-color: var(--orange-biz);
+  cursor: pointer;
 }

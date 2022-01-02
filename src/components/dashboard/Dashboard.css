@@ -1,4 +1,5 @@
 .dashboard-container {
+    margin-top: 10px;
     display: flex;
     height: 97vh;
     background: linear-gradient(to bottom right, white 0%, #75eca2 70%);
