@@ -11,6 +11,8 @@ export {default as DashNavbar } from "./dashboard/dash-navbar/DashNavbar";
 export {default as Revenu } from "./dashboard/revenu/Revenu";
 export {default as Info } from "./dashboard/info/Info";
 export {default as RecuCard } from "./dashboard/recu/RecuCard";
+export {default as RecuListTile } from "./dashboard/recu/recu-listTile/RecuListTile";
+export {default as Recap } from "./dashboard/recap/Recap";
 
 
 

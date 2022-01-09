@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Maincontent.css";
-import { DashNavbar, Info, RecuCard, Revenu } from '../..';
+import { DashNavbar, Info, RecuCard, Revenu, Recap } from '../..';
 
 const Maincontent = () => {
     return (
@@ -18,7 +18,12 @@ const Maincontent = () => {
                     </div>
                 </div>
                 <div className="section-two">
-                    <div className="collumn-one-2"></div>
+                    <div className="collumn-one-2">
+                        <div className="invoice-container">
+                        <h2>Ventes effectuées</h2>
+                            <Recap />
+                        </div>
+                    </div>
                     <div className="collumn-two-2"></div>
                 </div>
             </div>

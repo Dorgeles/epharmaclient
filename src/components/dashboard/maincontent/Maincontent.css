@@ -40,9 +40,25 @@
     width: 100%;
 }
 
+
 .collumn-one-2 {
 
 }
 .collumn-two-2 {
 
+}
+
+.invoice-container {
+    height: 60%;
+    width: 35rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    background-color: var(--color-white);
+    height: 140%;
+    transition: 0.4ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+}
+.invoice-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
