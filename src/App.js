@@ -1,6 +1,7 @@
 import "./App.css";
-import {HomeScreen, Login, Dashboard} from "./components/index";
+import {HomeScreen, Login} from "./components/index";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Dashboard from "./screens/main-screen/Dashboard";
 
 
 function App() {
